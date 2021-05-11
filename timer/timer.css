@@ -1,0 +1,62 @@
+* {
+  font-family: 'Staatliches', cursive;
+  background-color: rgb(5, 89, 167);
+  color: azure;
+  font-size:125%;
+}
+
+#time-display{
+  font-stretch:ultra-expanded;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 12vh;
+}
+
+#time-watch button{
+  font-stretch:ultra-expanded;
+  font-size:12vh;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#time-watch{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+button{
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#millisecond{
+  margin-top: 0;
+  padding-bottom: 2vw;
+  text-align: center;
+}
+
+#time-helper button{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#time-helper{
+  justify-content: center;
+  display: flex;
+}
+
+#settings-mode button{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#settings-mode{
+  display: flex;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}

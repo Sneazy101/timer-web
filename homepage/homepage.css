@@ -1,0 +1,45 @@
+* {
+    font-family: 'Staatliches', cursive;
+    background-color: rgb(5, 89, 167);
+    color: azure;
+}
+
+#option{
+    background:black;
+    z-index: 3;
+}
+#option-two{
+    padding-left: 55vw;
+    z-index: 1;
+}
+
+#stopwatch{
+    position: absolute;
+    top:40%;
+    background: black;
+    font-size: 7vw;
+    margin-left: 10%;
+    z-index: 4;
+}
+
+#timer{
+    font-size: 7vw;
+    padding-left: 10%;
+    position: absolute;
+    top:40%;
+    z-index: 999;
+}
+
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+}
+
+#mode{
+    display: flex;
+}

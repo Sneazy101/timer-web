@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="timer.css">
+  <title>Timer</title>
+</head>
+<body class = "stopwatch">
+  <div>
+    <div id = "time-display">
+      <div id ="time-watch">
+        <button id = hour>00:</button>
+        <button id = minutes>00:</button>
+        <button id = seconds>00</button>
+      </div>
+        <p id = "millisecond">0000</p>
+    </div>
+    <div id = "time-helper">
+      <button id = "start">Start</button>
+      <button id = "clear">Clear</button>
+    </div>
+    <div id = settings-mode>
+      <button id = "settings">Settings</button>
+      <button type="button" id = "timer" onclick="location.href='../stopwatch/stopwatch.html';" >Stop Watch</button>
+    </div>
+  </div>
+</body>
+<script src="timer.js"></script>
+</html>
